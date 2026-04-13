@@ -38,7 +38,7 @@ print(ks_result)
 
 
 #Problem 2
-germ_prod <- read.table(https://www.isibang.ac.in/~rsen/ASM1/GermProd.txt, header = TRUE)
+germ_prod <- read.table("https://www.isibang.ac.in/~rsen/ASM1/GermProd.txt", header = TRUE)
 
 nw_kernel <- function(x_eval, X, Y, h, kernel_type="epanechnikov") {
   preds <- numeric(length(x_eval))
